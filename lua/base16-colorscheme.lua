@@ -502,7 +502,7 @@ function M.setup(colors, config)
 	if M.config.cmp then
 		hi.CmpDocumentationBorder = { guifg = M.colors.base05, guibg = M.colors.base00, gui = nil, guisp = nil }
 		hi.CmpDocumentation = { guifg = M.colors.base05, guibg = M.colors.base00, gui = nil, guisp = nil }
-		hi.CmpItemAbbr = { guifg = M.colors.base05, guibg = M.colors.base00, gui = nil, guisp = nil }
+		hi.CmpItemAbbr = { guifg = M.colors.base05, guibg = "NONE", gui = nil, guisp = nil }
 		hi.CmpItemAbbrDeprecated = { guifg = M.colors.base03, guibg = nil, gui = "strikethrough", guisp = nil }
 		hi.CmpItemAbbrMatch = { guifg = M.colors.base0D, guibg = nil, gui = nil, guisp = nil }
 		hi.CmpItemAbbrMatchFuzzy = { guifg = M.colors.base0D, guibg = nil, gui = nil, guisp = nil }
