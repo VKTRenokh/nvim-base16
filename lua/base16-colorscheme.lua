@@ -134,6 +134,8 @@ function M.setup(colors, config)
 	M.colors = colors or M.colorschemes[vim.env.BASE16_THEME] or M.colorschemes["schemer-dark"]
 	local hi = M.highlight
 
+	M.colors.base00 = "NONE"
+
 	-- Vim editor colors
 	hi.Normal = { guifg = M.colors.base05, guibg = M.colors.base00, gui = nil, guisp = nil }
 	hi.Bold = { guifg = nil, guibg = nil, gui = "bold", guisp = nil }
